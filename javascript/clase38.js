@@ -39,5 +39,4 @@ const celeste = document.getElementById('celeste');
             
             window.juego = new Juego()/*Para poder debuggearla, mirando
             en consola que sucede con esta variable*/
-            var x = 1;
         }
