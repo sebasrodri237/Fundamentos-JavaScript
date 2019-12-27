@@ -84,7 +84,7 @@
       }
     </style>
   </head>
-  <body>
+  <body>  
     <div class="gameboard">
       <div id="celeste" class="color celeste left" data-color="celeste"></div>
       <div id="violeta" class="color violeta right" data-color="violeta"></div>
@@ -92,33 +92,6 @@
       <div id="verde" class="color verde right" data-color="verde"></div>
       <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
     </div>
-    <script>
-        
-        const celeste = document.getElementById('celeste');
-        const violeta = document.getElementById('violeta');
-        const naranja = document.getElementById('naranja');
-        const verde = document.getElementById('verde');
-        const btnEmpezar = document.getElementById('btnEmpezar');
-
-        class Juego{
-
-            constructor(){
-
-                this.inicializar()
-            }
-
-            inicializar(){
-
-                btnEmpezar.classList.add('hide');/*Aqui le agrego una clase
-                al boton de empezar en css, esta clase tiene display:none
-                para ocultar el boton*/
-            }
-        }
-
-        function empezarJuego() {
-            
-            var juego = new Juego()
-        }
-    </script>
+    <script src="javascript/InicioJuegoClase37.js"></script>
   </body>
 </html>
