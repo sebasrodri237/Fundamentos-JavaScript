@@ -17,9 +17,6 @@
 
             inicializar(){
 
-                btnEmpezar.classList.add('hide');/*Aqui le agrego una clase
-                al boton de empezar en css, esta clase tiene display:none
-                para ocultar el boton*/
                 this.toggleBtnEmpezar();/*Aqui le agrego una clase al boton de empezar en css, esta 
                 clase tiene display:none para ocultar el boton, como es un toggle sera como un switch agregando y quitando
                 la clase segun lo necesitemos*/
