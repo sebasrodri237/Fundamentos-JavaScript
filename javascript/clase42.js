@@ -20,7 +20,9 @@
                 btnEmpezar.classList.add('hide');/*Aqui le agrego una clase
                 al boton de empezar en css, esta clase tiene display:none
                 para ocultar el boton*/
-                this.toggleBtnEmpezar();/*Para volver a mostrar el boton al perder o ganar juego */
+                this.toggleBtnEmpezar();/*Aqui le agrego una clase al boton de empezar en css, esta 
+                clase tiene display:none para ocultar el boton, como es un toggle sera como un switch agregando y quitando
+                la clase segun lo necesitemos*/
                 this.elegirColor = this.elegirColor.bind(this)/*Se agrega el bind para que el metodo elegirColor 
                 tenga a this atado como nuestra instancia u objeto al juego y no al boton que seleccionamos como
                 estaba ocurriendo*/
