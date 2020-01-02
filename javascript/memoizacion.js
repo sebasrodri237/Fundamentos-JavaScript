@@ -5,7 +5,7 @@ function factorial(n) {
         this.cache = {}
     }/*Pregunta si existe una cache de esta funcion sino es asi lo crea*/
 
-    debugger
+   
     if (this.cache[n]) {
         
         return this.cache[n];
@@ -17,6 +17,6 @@ function factorial(n) {
     }
 
     this.cache[n] =  n * factorial(n-1);
-    debugger
+    
     return this.cache[n];
 }
