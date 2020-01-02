@@ -3,7 +3,7 @@ function factorial(n) {
     if (!this.cache) {
         
         this.cache = {}
-    }/*Pregunta si existe una cache de esta funcion */
+    }/*Pregunta si existe una cache de esta funcion sino es asi lo crea*/
 
     debugger
     if (this.cache[n]) {
